@@ -13,9 +13,6 @@ function Contador(){
     return(
         <div>
             <h1>Contador</h1>
-            <button className="boton" onClick={aumentarValor}>Counter</button>
-            <button className="boton" onClick={disminuirValor}>Registro Gastos</button>
-            <button className="boton" onClick={resetear}>Visualizacion Grafica</button>
             <h2>Valor: {numero}</h2>
             <button className="btn btn-primary m-1" onClick={aumentarValor}>Aumentar</button>
             <button className="btn btn-secondary m-1" onClick={disminuirValor}>Disminuir</button>

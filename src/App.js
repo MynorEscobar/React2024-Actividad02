@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Contador from './Components/Contador';
+import ListaTareas from './Components/ListaTareas';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       </header>
       <section>
         <Contador></Contador>
+      </section>
+      <section>
+        <ListaTareas></ListaTareas>
       </section>
     </div>
   );
